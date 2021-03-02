@@ -16,7 +16,7 @@ public class Persona{
 			do{
 				sexo = Captura.capturarString("Ingresa sexo valido:");
 
-			}while(sexo.length() != 6);				
+			}while(sexo.length() != 1);				
 		}
 		if(fecha.length() != 6){
 			System.out.println("Fecha no valida :(");
@@ -30,7 +30,7 @@ public class Persona{
 			do{
 				fecha = Captura.capturarString("Ingresa entidad federativa valida:");
 
-			}while(entidad_federativa.length() != 6);				
+			}while(entidad_federativa.length() != 2);				
 		}
 		this.sexo = sexo;
 		this.fecha = fecha;
