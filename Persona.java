@@ -41,7 +41,7 @@ public class Persona{
 	//INICIALES-FECHA-SEXO-ENTIDAD-CONSONANTES-2 ALEATORIOS
 	public String crearCURP(){
 		CURP = String.valueOf(apellido_p.charAt(0)) + String.valueOf(apellido_p.charAt(1)) + String.valueOf(apellido_m.charAt(0)) +
-		       String.valueOf(nombre.charAt(0)) + String.valueOf(nombre.charAt(0)) + fecha + sexo + entidad_federativa;
+		       String.valueOf(nombre.charAt(0)) + fecha + sexo + entidad_federativa;
 
 		CURP += primeraConsonante(apellido_p) + primeraConsonante(apellido_m) + primeraConsonante(nombre);
 
@@ -68,9 +68,10 @@ public class Persona{
 	//PRIMERAS 2 LETRAS DE PATERNO- PRIMERAS 2 LETRAS MATERNO - PRIMERA LETRA NOMBRE- AAMMDD - 3 RANDOM
 	public String crearRFC(){
 		RFC = String.valueOf(apellido_p.charAt(0)) + String.valueOf(apellido_p.charAt(1)) + String.valueOf(apellido_m.charAt(0)) +
-		       String.valueOf(apellido_m.charAt(1)) + String.valueOf(nombre.charAt(0)) + fecha;
+		       String.valueOf(apellido_m.charAt(1)) + fecha;
 		Random gen = new Random();
 		RFC += String.valueOf(gen.nextInt(10)) + String.valueOf(gen.nextInt(10))  + String.valueOf(gen.nextInt(10)) ;
 		return RFC.toUpperCase();
 	} 	
 }
+
