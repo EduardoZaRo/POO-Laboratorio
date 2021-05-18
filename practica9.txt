@@ -1,0 +1,15 @@
+Nombre:Irvin
+Matricula:1270771
+55	99	66	66	25	11	100	
+Promedio:60.285713
+
+Nombre:Eduardo
+Matricula:1270779
+55	99	44	88	66	44	26	
+Promedio:60.285713
+
+Nombre:Zavala
+Matricula:6969568
+12	69	96	14	66	88	100	
+Promedio:63.57143
+
