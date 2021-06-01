@@ -1,0 +1,26 @@
+
+Nombre:hh
+Elo:800
+Titulo:Amateur
+-
+
+Nombre:fyyy
+Elo:2170
+Titulo:Amateur
+-
+
+Nombre:fyyy
+Elo:2170
+Titulo:Amateur
+-
+
+Nombre:hhh
+Elo:2160
+Titulo:Amateur
+-
+
+Nombre:weduardo
+Elo:2220
+Titulo:Candidato a Maestro
+-
+
